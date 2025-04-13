@@ -1,4 +1,5 @@
 @media (max-width:600px) {
+    /* Nav Bar Responsiveness */
     nav h4{
         display: none;
     }
