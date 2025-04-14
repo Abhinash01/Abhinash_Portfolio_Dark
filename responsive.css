@@ -8,7 +8,7 @@
         font-size: 6vw;
         position: absolute;
         right: 30px;
-        top: 35px;
+        top: 30px;
     }
 
     nav {
@@ -20,7 +20,7 @@
         flex-direction: column;
         height: auto;
         box-shadow: 0 0 10px #a855f7;
-        margin: 10px;
+        margin-top: 8px;
     }
 
     .left {
@@ -38,10 +38,15 @@
     }
 
     .left p {
-        font-size: 7vw;
-        margin-top: 10vw;
+        font-size: 5vw;
+        margin-top: 8vw;
+
         width: 100%;
     }
+    
+    .left button{
+        margin-left: 14.5vh;
+     }
 
     .right {
         width: 100%;
