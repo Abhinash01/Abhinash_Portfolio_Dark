@@ -1,55 +1,56 @@
- @media (max-width:600px) {
-    /* Nav Bar Responsiveness */
-    nav h4{
+@media (max-width: 600px) {
+    nav h4 {
         display: none;
     }
-    nav i{
+
+    nav i {
         display: block;
         font-size: 6vw;
         position: absolute;
-        right: 30px; 
-        top: 35px;  
-        
+        right: 30px;
+        top: 35px;
     }
-    nav{
-        border: none;
+
+    nav {
         height: 60px;
         padding: 0 6vw;
     }
-    .main{
-        height: calc(100% - 60px);
+
+    .main {
         flex-direction: column;
+        height: auto;
+        box-shadow: 0 0 10px #a855f7;
+        margin: 10px;
     }
-    .left{
+
+    .left {
         width: 100%;
-        margin-left: 20px;
         padding: 4vw 6vw;
-        height: 20%;
+        height: auto;
+        margin-left: 0;
     }
-    .left h3{
+
+    .left h3 {
         margin-top: 10vw;
         padding-bottom: 10px;
         font-size: 10vw;
         line-height: 11vw;
     }
 
-    .left p{
+    .left p {
         font-size: 7vw;
         margin-top: 10vw;
         width: 100%;
     }
 
-   
-    
-    .right{
+    .right {
         width: 100%;
-        height: 30%;
+        height: auto;
         padding: 5vw 6vw;
     }
 
-    .right img{
-        height: 4%;
+    .right img {
+        height: auto;
         width: 100%;
-       
     }
- }
+}

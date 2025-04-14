@@ -1,81 +1,82 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+    outline: none;
 }
-body{
+
+body {
     background: linear-gradient(145deg, #1a0025, #3a0057, #5c007a, #390048);
-    box-shadow: 0 0 10px #a855f7, 0 0 20px #9333ea;
     min-height: 100vh;
-    margin: 0;
     color: aliceblue;
-    overflow: hidden;
+    overflow-x: hidden;
 }
-nav{
+
+/* Wrapper for internal content glow */
+.wrapper {
+    padding: 10px;
+}
+
+/* NavBar */
+nav {
     height: 80px;
     width: 100%;
-    /* border-bottom: 2px solid aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4vw;
 }
 
-nav h4{
+nav h4 {
     font-weight: bolder;
     font-size: 4vh;
     transition: 0.3s ease-in;
 }
 
-nav i{
+nav i {
     font-size: 2vw;
     font-weight: bolder;
     display: none;
 }
 
-nav h4:hover{
+nav h4:hover {
     text-shadow: 0 0 10px #a855f7, 0 0 20px #9333ea;
     cursor: pointer;
-    transition: 0.3s ease-out;
 }
 
-.main{
+/* Main Content */
+.main {
     display: flex;
     justify-content: space-between;
-    height: calc(100% - 80px);
     width: 100%;
+    height: calc(100% - 80px);
+    box-shadow: 0 0 20px #a855f7, 0 0 30px #9333ea;
+    border-radius: 16px;
+    margin: 20px auto;
 }
 
-.left{
-    height: 100%;
+/* Left Section */
+.left {
     width: 50%;
-    /* background-color: rgb(18, 141, 141); */
     padding: 120px 100px;
 }
 
-.right{
-    height: 100%;
-    width: 50%;
-    /* background-color: rgb(180, 175, 205); */
-}
- .left h3{
+.left h3 {
     font-size: 7vh;
     color: #fff;
     padding-bottom: 40px;
+}
 
- }
- .left h3 span{
-    color:  #D6A3FB;
-    
- }
+.left h3 span {
+    color: #D6A3FB;
+}
 
- .left p{
+.left p {
     font-size: 5vh;
     padding-bottom: 40px;
- }
+}
 
- .left button{
+.left button {
     background-color: #bb65e6;
     color: #08010d;
     padding: 10px 20px;
@@ -85,18 +86,22 @@ nav h4:hover{
     cursor: pointer;
     transition: background 0.5s ease;
     margin-top: 10px;
-    
- }
- button:hover {
+}
+
+.left button:hover {
     background-color: #3a0057;
     color: #D6A3FB;
     transition: background 0.5s ease-out;
-  }
+}
 
-  .right img{
+/* Right Section */
+.right {
+    width: 50%;
+}
+
+.right img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     padding: 3vw 7vw;
-  }
-  
+}
