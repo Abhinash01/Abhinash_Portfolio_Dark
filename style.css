@@ -7,9 +7,10 @@
 body{
     background: linear-gradient(145deg, #1a0025, #3a0057, #5c007a, #390048);
     box-shadow: 0 0 10px #a855f7, 0 0 20px #9333ea;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     color: aliceblue;
+    overflow: hidden;
 }
 nav{
     height: 80px;
@@ -49,11 +50,53 @@ nav h4:hover{
 .left{
     height: 100%;
     width: 50%;
-    background-color: rgb(18, 141, 141);
+    /* background-color: rgb(18, 141, 141); */
+    padding: 120px 100px;
 }
 
 .right{
     height: 100%;
     width: 50%;
-    background-color: rgb(180, 175, 205);
+    /* background-color: rgb(180, 175, 205); */
 }
+ .left h3{
+    font-size: 7vh;
+    color: #fff;
+    padding-bottom: 40px;
+
+ }
+ .left h3 span{
+    color:  #D6A3FB;
+    
+ }
+
+ .left p{
+    font-size: 5vh;
+    padding-bottom: 40px;
+ }
+
+ .left button{
+    background-color: #bb65e6;
+    color: #08010d;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.5s ease;
+    margin-top: 10px;
+    
+ }
+ button:hover {
+    background-color: #3a0057;
+    color: #D6A3FB;
+    transition: background 0.5s ease-out;
+  }
+
+  .right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 3vw 7vw;
+  }
+  
