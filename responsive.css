@@ -101,6 +101,8 @@
       flex-wrap: wrap;
       padding-bottom: 8vw;
     }
+
+    /* Contact Section */
     .contact h3{
         font-size: 4vh;
         padding-left: 3vh;
@@ -118,6 +120,8 @@
     .social-icons {
         gap: 5vh;
     }
+    
+    /* Footer Section */
     footer h3{
         font-size: 3vh;
     }
