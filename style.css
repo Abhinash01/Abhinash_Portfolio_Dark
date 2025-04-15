@@ -25,11 +25,13 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 4vw;
+    
 }
 
 nav h4 {
     font-weight: bolder;
     font-size: 4vh;
+    
 }
 
 nav i {
@@ -59,6 +61,9 @@ nav h4:hover {
     width: 50%;
     padding: 120px 100px;
 }
+.left strong{
+    color: #D6A3FB;
+}
 
 .left h3 {
     font-size: 7vh;
@@ -83,14 +88,15 @@ nav h4:hover {
     border: none;
     font-weight: bold;
     cursor: pointer;
-    transition: background 0.5s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #a855f7, 0 0 20px #9333ea;
     margin-top: 10px;
 }
 
 .left button:hover {
     background-color: #3a0057;
     color: #D6A3FB;
-    transition: background 0.5s ease-out;
+    transform: scale(1.1);
 }
 
 /* Right Section */
@@ -174,4 +180,69 @@ nav h4:hover {
     padding-bottom: 5vw;
 }
 
+/* Contact Section */
+.contact{
+    width: 100%;
+    box-shadow: 0 0 20px #a855f7, 0 0 30px #9333ea;
+    border-radius: 16px;
+    margin: 20px auto;
+}
 
+.contact h3{
+    font-size: 4vw;
+    text-decoration: underline;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.contact p{
+    padding: 0 80px;
+    font-size: 5vh;
+}
+
+.contact-details{
+    padding: 5vh 0;
+}
+
+
+.contact-details strong{
+    color: #D6A3FB
+}
+
+.social-icons {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .social-icons a {
+    background-color: #9333ea;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #a855f7, 0 0 20px #9333ea;
+  }
+  
+  .social-icons a:hover {
+    background-color: #3a0057;
+    color: #D6A3FB;
+    transform: scale(1.1);
+  }
+  
+  footer{
+    text-align: center;
+    margin-top: 80px
+  }
+
+  footer h3{
+    font-size: 4vh;
+  }
+
+  footer h3 strong{
+    color:#D6A3FB ;
+  }
