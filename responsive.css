@@ -58,4 +58,19 @@
         height: auto;
         width: 100%;
     }
+    /* About Section */
+
+    .about h3{
+        font-size: 4vh;
+        padding-left: 3vh;
+    }
+
+    .about p{
+        font-size: 5vw;
+        padding: 0 3vh;
+    }
+    .about .para{
+        padding: 3vh 0;
+        padding-bottom: 4vh;
+    }
 }
