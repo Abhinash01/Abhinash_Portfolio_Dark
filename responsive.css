@@ -78,11 +78,11 @@
         padding: 3vh 0;
         padding-bottom: 4vh;
     }
+    /* Skills Section */
 
     .skills h3{
         font-size: 4vh;
         padding-left: 3vh;
-        
     }
 
     .skills img{
@@ -101,5 +101,25 @@
       flex-wrap: wrap;
       padding-bottom: 8vw;
     }
-  }
-  
+    .contact h3{
+        font-size: 4vh;
+        padding-left: 3vh;
+    }
+
+    .contact p{
+        font-size: 5vw;
+        padding: 0 3vh;
+    }
+
+    .contact-details p{
+        font-size: 4.5vw;
+        line-height: 10vw;
+    }
+    .social-icons {
+        gap: 5vh;
+    }
+    footer h3{
+        font-size: 3vh;
+    }
+
+}
