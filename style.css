@@ -105,3 +105,33 @@ nav h4:hover {
     object-fit: cover;
     padding: 3vw 7vw;
 }
+
+/* About Section */
+
+.about{
+    width: 100%;
+    box-shadow: 0 0 20px #a855f7, 0 0 30px #9333ea;
+    border-radius: 16px;
+}
+
+.about h3{
+    font-size: 4vw;
+    text-decoration: underline;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.about p{
+    padding: 0 80px;
+    font-size: 5vh;
+}
+
+.about p strong{
+    color: #D6A3FB;
+}
+
+.about .para{
+    padding-top: 2vw;
+    padding-bottom: 5vw;
+}
