@@ -1,4 +1,7 @@
 @media (max-width: 600px) {
+    *{
+        -webkit-tap-highlight-color: transparent;
+    }
     nav h4 {
         display: none;
     }
@@ -46,6 +49,7 @@
     
     .left button{
         margin-left: 14.5vh;
+        -webkit-tap-highlight-color: transparent;
      }
 
     .right {
@@ -69,8 +73,33 @@
         font-size: 5vw;
         padding: 0 3vh;
     }
+
     .about .para{
         padding: 3vh 0;
         padding-bottom: 4vh;
     }
-}
+
+    .skills h3{
+        font-size: 4vh;
+        padding-left: 3vh;
+        
+    }
+
+    .skills img{
+    height: 25vw;
+    width: 25vw;
+    margin: 10px 0;
+    }
+
+    .skills .part1,
+    .skills .part2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      gap: 6vw;
+      flex-wrap: wrap;
+      padding-bottom: 8vw;
+    }
+  }
+  
