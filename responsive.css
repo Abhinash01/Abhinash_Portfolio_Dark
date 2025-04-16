@@ -19,7 +19,43 @@
         padding: 0 6vw;
     }
 
-  
+    .mobile-nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background: #1a0025;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px #a855f7;
+        z-index: 999;
+      
+        /* Animation start state */
+        transform: translateY(-20px);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s ease;
+      }
+      
+      .mobile-nav a {
+        color: white;
+        text-decoration: none;
+        margin: 10px 0;
+        font-size: 18px;
+      }
+      
+      body.nav-open .mobile-nav {
+        display: flex;
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+      }
+      
+    
+
+
+
     .main {
         flex-direction: column;
         height: auto;
