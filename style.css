@@ -31,6 +31,15 @@ nav {
     
 }
 
+.blink {
+    animation: blinkText 5s infinite;
+    color: #a855f7; /* Optional: glowing purple */
+  }
+  
+  @keyframes blinkText {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
 
 nav h4 {
     font-weight: bolder;
@@ -55,6 +64,10 @@ nav h4:hover {
     cursor: pointer;
 }
 
+
+.mobile-nav{
+    display: none;
+}
 /* Main Content */
 .main {
     display: flex;
